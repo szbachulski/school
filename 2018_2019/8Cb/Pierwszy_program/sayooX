@@ -1,1 +1,12 @@
+print("program obliczajacy wynik dzielenia wraz z resztą oraz uniemozliwia dzielenie przez 0")
+dzielna = float(input("Podaj dzielna"))
+dzielnik = float(input("Podaj dzielnik"))
+dana = 0
+while dzielnik == dana:
+   print("Nie można dzielić przez ", dana, ".")
+   dzielnik = float(input("Podaj dzielnik jeszcze raz:" ))
+wynik = ( dzielna/dzielnik,)
+reszta = ( dzielna % dzielnik)
+reszta1 = (dzielna - reszta) / dzielnik
+print("wynik to:", wynik, "a wynik z resztą to", reszta1, "i", reszta)
 
