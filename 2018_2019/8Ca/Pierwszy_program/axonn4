@@ -1,1 +1,14 @@
-
+print('program do pobierania danych z klawiatury')
+a = input('a: ')
+a = int(a)
+b = input('b: ')
+b = int(b)
+while b == 0:
+    print('nie można dzielić przez 0')
+    b = input('b:')
+    b = int(b)
+if b != 0:
+    print('wynik: ')
+    print (int(a/b))
+    print ('reszta: ')
+    print (a%b)
