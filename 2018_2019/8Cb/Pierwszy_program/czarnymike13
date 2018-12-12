@@ -19,3 +19,4 @@ if dzielnik != 0:
     reszta = dzielna % dzielnik
 
     calosc = (dzielna - reszta)/dzielnik
+    print('Wynik to:', calosc, 'całosci i:', reszta, 'reszty.')
