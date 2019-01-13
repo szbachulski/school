@@ -1,1 +1,14 @@
-
+a = input("Wprowadź dzielną")
+a = int(a)
+b = input("Wprowadź dzielnik")
+b = int(b)
+while b == 0:
+    print("Nie da się dzielić przez 0")
+    b = input("Wprowadź dzielnik jeszcze raz")
+    b = int(b)
+if b !=0:
+    print("wynik:")
+    print(int(a/b))
+    print("Reszta")
+    print(int(a%b))
+    
